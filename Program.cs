@@ -10,11 +10,14 @@ class Program
         try
         {
         
-        for (var index = 0; index< 10; index++)
+        /*for (var index = 0; index< 10; index++)
         {
             //System.IndexOutOfRangeException
             Console.WriteLine(arr[index]);
-        }
+        }*/
+
+            Cadastar("");
+
         }
         catch (IndexOutOfRangeException ex)
         {
@@ -22,11 +25,22 @@ class Program
             Console.WriteLine(ex.Message);
             Console.WriteLine("não encontrei o índice na lista");
         }
+        catch (MinhaException ex)
+        {
+            Console.WriteLine(ex.InnerException);
+            Console.WriteLine(ex.Message);
+            Console.WriteLine(ex.QuandoAconteceu);
+            Console.WriteLine("Exceção customizada");
+        }
         catch (Exception ex)
         {
             Console.WriteLine(ex.InnerException);
             Console.WriteLine(ex.Message);
             Console.WriteLine("ops, algo deu errado!");
+        }
+        finally
+        {
+            Console.WriteLine("chegou ao fim!");
         }
 
 
@@ -55,4 +69,22 @@ class Program
 
 
     }
+
+    private static void Cadastar (string texto)
+    {
+        if (string.IsNullOrEmpty(texto))
+        {
+            throw new MinhaException(DateTime.Now);
+        }
+    }
+
+    public class MinhaException : Exception
+    {
+        public MinhaException(DateTime date)
+        {
+            QuandoAconteceu = date;
+        }
+        public DateTime QuandoAconteceu { get; set; }
+    }
+
 }
