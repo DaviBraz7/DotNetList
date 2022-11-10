@@ -1,0 +1,15 @@
+C:\DevDotNET\DotNetList\bin\Debug\net6.0\DotNetList.exe
+C:\DevDotNET\DotNetList\bin\Debug\net6.0\DotNetList.deps.json
+C:\DevDotNET\DotNetList\bin\Debug\net6.0\DotNetList.runtimeconfig.json
+C:\DevDotNET\DotNetList\bin\Debug\net6.0\DotNetList.dll
+C:\DevDotNET\DotNetList\bin\Debug\net6.0\DotNetList.pdb
+C:\DevDotNET\DotNetList\obj\Debug\net6.0\DotNetList.csproj.AssemblyReference.cache
+C:\DevDotNET\DotNetList\obj\Debug\net6.0\DotNetList.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevDotNET\DotNetList\obj\Debug\net6.0\DotNetList.AssemblyInfoInputs.cache
+C:\DevDotNET\DotNetList\obj\Debug\net6.0\DotNetList.AssemblyInfo.cs
+C:\DevDotNET\DotNetList\obj\Debug\net6.0\DotNetList.csproj.CoreCompileInputs.cache
+C:\DevDotNET\DotNetList\obj\Debug\net6.0\DotNetList.dll
+C:\DevDotNET\DotNetList\obj\Debug\net6.0\refint\DotNetList.dll
+C:\DevDotNET\DotNetList\obj\Debug\net6.0\DotNetList.pdb
+C:\DevDotNET\DotNetList\obj\Debug\net6.0\DotNetList.genruntimeconfig.cache
+C:\DevDotNET\DotNetList\obj\Debug\net6.0\ref\DotNetList.dll
